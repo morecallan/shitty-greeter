@@ -1,3 +1,6 @@
 "use strict";
 
-console.log("Sup");
+const GreetingGenerator = require('./greetingGenerator');
+
+
+document.getElementById("output").innerHTML = GreetingGenerator.spanish();
